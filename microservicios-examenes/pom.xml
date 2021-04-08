@@ -9,10 +9,10 @@
 		<version>2.3.9.RELEASE</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.pt.microservicios.app.cursos</groupId>
-	<artifactId>microservicios-cursos</artifactId>
+	<groupId>com.pt.microservicios.microservicios-.examenes</groupId>
+	<artifactId>microservicios-examenes</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>microservicios-cursos</name>
+	<name>microservicios-examenes</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>11</java.version>
@@ -20,11 +20,10 @@
 	</properties>
 	<dependencies>
 		<dependency>
-			<groupId>com.pt.microservicios.commons-alumnos</groupId>
-			<artifactId>commons-alumnos</artifactId>
+			<groupId>com.pt.microservicios.commonsl</groupId>
+			<artifactId>commons-microservicios</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
-
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
@@ -37,12 +36,7 @@
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
 		</dependency>
-		<dependency>
 
-			<groupId>com.pt.microservicios.commonsl</groupId>
-			<artifactId>commons-microservicios</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
